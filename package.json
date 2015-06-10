@@ -1,0 +1,31 @@
+{
+  "name": "one-requirejs-config",
+  "version": "0.0.1",
+  "readme": "README.md",
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "start": "grunt"
+  },
+  "author": "Drew Foehn",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-sync": "^0.2.3",
+    "load-grunt-tasks": "^3.1.0"
+  },
+  "directories": {
+    "grunt_root": "./grunt/",
+    "gruntTasks": "./grunt/tasks/",
+    "gruntTaskConfig": "./grunt/taskConfig/",
+    "src": "./src/",
+    "dist": "./dist/",
+    "js-src": "./src/js",
+    "js-dist": "./dist/js"
+  },
+  "dependencies": {
+    "glob": "^5.0.10",
+    "grunt-regex-replace": "^0.2.6"
+  }
+}

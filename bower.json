@@ -1,0 +1,21 @@
+{
+  "name": "one-requirejs-config",
+  "version": "0.0.1",
+  "authors": [
+    "Drew Foehn <drew@pixelburn.net>"
+  ],
+  "main": "site-init.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.18",
+    "jquery": "~2.1.4",
+    "lodash": "~3.9.3"
+  }
+}
